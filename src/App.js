@@ -3,7 +3,7 @@ import './App.css';
 function App() {
   //document.domain = "gatsbyjs.io";
   function receiveMessage (e) {
-      if (e.origin !== "https://domainone.gatsbyjs.io" && e.origin !== "https://domainone.gatsbyjs.io") {
+      if (e.origin !== "http://crossdomainlsdomainonemain.gatsbyjs.io" && e.origin !== "https://crossdomainlsdomainonemain.gatsbyjs.io") {
           return;
       }
 
@@ -45,7 +45,7 @@ function App() {
       <p>The X-Frame-Options must be unset on this server</p>
       <a
           className="App-link"
-          href="https://domainone.gatsbyjs.io/"
+          href="https://crossdomainlsdomainonemain.gatsbyjs.io/"
           target="_blank"
           rel="noopener noreferrer"
         >
